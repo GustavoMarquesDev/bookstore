@@ -1,8 +1,8 @@
+# type: ignore
 import factory
 from django.contrib.auth.models import User
 
 from order.models import Order
-from product.factories import ProductFactory
 
 
 class UserFactory(factory.django.DjangoModelFactory):

@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
 from django.db import models
 
 from product.models import Category
@@ -13,7 +9,6 @@ class Product(models.Model):
     price = models.PositiveIntegerField(null=True)
     active = models.BooleanField(default=True)
     category = models.ManyToManyField(Category, blank=True)
-
 
     def __str__(self):
         return self.title
