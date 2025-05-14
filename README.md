@@ -1,6 +1,6 @@
 # Bookstore
 
-Bookstore APP from Backend Python course from EBAC
+Projeto do curso da EBAC para CRUD usando o DRF Django Rest Framework
 
 ## Prerequisites
 
